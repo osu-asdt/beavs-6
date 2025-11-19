@@ -1,0 +1,8 @@
+*autosave*
+*cache*
+*.lck
+*backups
+\#auto_saved_files#
+fab-files
+fabrication-toolkit-options.json
+production
