@@ -413,4 +413,15 @@
 		(uuid "9aae995d-68d5-4310-ae17-1f21b67f1218")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/REL0014B.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

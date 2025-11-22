@@ -189,6 +189,8 @@
       "track_widths": [
         0.0,
         0.2,
+        0.3,
+        0.4,
         4.0,
         5.0
       ],
@@ -657,6 +659,10 @@
     [
       "c418f66a-3bfd-48e4-bf5e-1b050c211ac2",
       "Sensors"
+    ],
+    [
+      "26ece988-76d1-4a41-97fd-37d8dbe13e2a",
+      "Radio"
     ]
   ],
   "text_variables": {}
