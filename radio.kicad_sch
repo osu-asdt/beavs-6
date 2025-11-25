@@ -1044,6 +1044,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "0ba97279-b271-4328-9b92-1bac3e4f97bf")
 		)
@@ -1195,7 +1204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical"
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 151.13 77.47 0)
 			(effects
 				(font
@@ -1214,6 +1223,15 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 151.13 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C88374"
 			(at 151.13 77.47 0)
 			(effects
 				(font
