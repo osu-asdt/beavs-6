@@ -4839,6 +4839,10 @@
 		(at 81.28 93.98)
 		(uuid "9766bd2e-f3f1-4357-babd-77822afd8f45")
 	)
+	(no_connect
+		(at 207.01 152.4)
+		(uuid "e7bf1bde-18c8-429a-aeef-323c9ce36a17")
+	)
 	(wire
 		(pts
 			(xy 335.28 165.1) (xy 335.28 163.83)
@@ -9883,6 +9887,119 @@
 			(project ""
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1"
 					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 20.32 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbe59833-c1cd-4b25-8ef0-1a444f11f827")
+		(property "Reference" "J13"
+			(at 20.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 20.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7051x"
+			(at 24.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 24.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 20.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A5"
+			(uuid "1e61c61a-2bfd-4391-a1ee-d613e5ab3d2f")
+		)
+		(pin "B5"
+			(uuid "53571643-19db-43f2-b37c-e1a65bc7c343")
+		)
+		(pin "B4"
+			(uuid "ac1dfa56-22e4-440c-ad14-559c9720d86e")
+		)
+		(pin "B6"
+			(uuid "5aec909c-5519-45e6-a10c-d2a0f58e27f2")
+		)
+		(pin "A12"
+			(uuid "6917e409-b4f9-40ba-9d43-aeca2887d14e")
+		)
+		(pin "A7"
+			(uuid "59d169c1-0c27-4024-9bf7-5aa53c3a63ab")
+		)
+		(pin "S1"
+			(uuid "cc11bc8f-790e-4738-939f-34fd7e127026")
+		)
+		(pin "A8"
+			(uuid "066bc922-bf66-4154-a8d1-23efd288a6ed")
+		)
+		(pin "B12"
+			(uuid "ae748ec3-5bb3-4557-a079-276bcc5f3abc")
+		)
+		(pin "A1"
+			(uuid "1e1c29ad-55bc-414f-82b9-ba79b12c601c")
+		)
+		(pin "B7"
+			(uuid "31147cf2-e4c1-43d9-80dd-b721c983ac4b")
+		)
+		(pin "B9"
+			(uuid "ccc033a3-f4c5-4d54-b3b4-ea7bdf17682b")
+		)
+		(pin "B8"
+			(uuid "668a2c64-4d3f-44ee-99de-765408749f2d")
+		)
+		(pin "B1"
+			(uuid "22894556-38fd-4813-bab1-fd0220f2325d")
+		)
+		(pin "A9"
+			(uuid "488e42e8-0a32-4c29-9419-380c743f8429")
+		)
+		(pin "A6"
+			(uuid "c4dd969c-cb5a-4bee-b756-5719aea0c5b0")
+		)
+		(pin "A4"
+			(uuid "a121a9c3-70fb-4650-9cff-75738e54394c")
+		)
+		(instances
+			(project ""
+				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1"
+					(reference "J13")
 					(unit 1)
 				)
 			)
