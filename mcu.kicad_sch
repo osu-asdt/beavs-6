@@ -3155,6 +3155,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 115.57) (xy 198.12 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2ca682-9b3c-4c67-bc4e-4f4aafe4d409")
+	)
+	(wire
+		(pts
 			(xy 135.89 52.07) (xy 142.24 52.07)
 		)
 		(stroke
@@ -4058,6 +4068,17 @@
 			(justify left)
 		)
 		(uuid "ee1e8ee9-2ad2-40c5-b6f1-99887310dd05")
+	)
+	(hierarchical_label "GPIO_EXTINT"
+		(shape output)
+		(at 198.12 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe70daf8-e44d-4432-bcdf-512b8c89681b")
 	)
 	(hierarchical_label "M_S3"
 		(shape output)

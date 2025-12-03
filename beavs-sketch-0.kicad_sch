@@ -1409,261 +1409,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:WS2812B-2020"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.08 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "WS2812B-2020"
-				(at 1.27 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-				(at 1.27 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-				(at 2.54 -9.525 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*WS2812*-2020_PLCC4*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "WS2812B-2020_0_0"
-				(text "RGB"
-					(at 2.286 -4.191 0)
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(symbol "WS2812B-2020_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.556) (xy 1.778 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.699 -3.556) (xy 2.667 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "WS2812B-2020_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Logic_LevelTranslator:SN74LVC8T245"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3650,6 +3395,261 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "beavs-symbols:SK6812-EC20"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "SK6812-EC20"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "beavs-footprints:LED_SK6812-EC20_PLCC4_2.0x2.0mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812-EC20_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6812-EC20_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812-EC20_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "beavs-symbols:SiS427EDN"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4762,7 +4762,7 @@
 		(uuid "a614c1fc-9355-4b4c-b350-423756424559")
 	)
 	(junction
-		(at 185.42 77.47)
+		(at 185.42 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4580c24-cb1e-403a-90ac-854c2b0b57eb")
@@ -4816,7 +4816,7 @@
 		(uuid "e2ced63f-c49a-4358-907c-dbb0498d8158")
 	)
 	(junction
-		(at 187.96 74.93)
+		(at 187.96 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f474c79b-7468-4ce0-a771-94f8867d38ca")
@@ -4875,7 +4875,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 77.47) (xy 190.5 77.47)
+			(xy 185.42 81.28) (xy 190.5 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5065,7 +5065,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 95.25) (xy 187.96 74.93)
+			(xy 187.96 95.25) (xy 187.96 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5075,7 +5075,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 77.47) (xy 185.42 97.79)
+			(xy 185.42 81.28) (xy 185.42 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5775,7 +5775,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 74.93) (xy 187.96 74.93)
+			(xy 176.53 78.74) (xy 187.96 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6075,6 +6075,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 74.93) (xy 190.5 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3872b02-1c8f-437c-905c-e81aebc98f9e")
+	)
+	(wire
+		(pts
 			(xy 207.01 142.24) (xy 273.05 142.24)
 		)
 		(stroke
@@ -6135,7 +6145,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 74.93) (xy 190.5 74.93)
+			(xy 187.96 78.74) (xy 190.5 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6155,7 +6165,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 77.47) (xy 185.42 77.47)
+			(xy 176.53 81.28) (xy 185.42 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6716,7 +6726,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
+		(lib_id "beavs-symbols:SK6812-EC20")
 		(at 302.26 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6732,7 +6742,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6812-EC20"
 			(at 316.23 168.8398 0)
 			(effects
 				(font
@@ -6741,7 +6751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "beavs-footprints:LED_SK6812-EC20_PLCC4_2.0x2.0mm"
 			(at 303.53 180.34 0)
 			(effects
 				(font
@@ -6761,7 +6771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" "RGB LED with integrated controller"
 			(at 302.26 172.72 0)
 			(effects
 				(font
@@ -7202,7 +7212,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
+		(lib_id "beavs-symbols:SK6812-EC20")
 		(at 318.77 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7218,7 +7228,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6812-EC20"
 			(at 332.74 168.8398 0)
 			(effects
 				(font
@@ -7227,7 +7237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "beavs-footprints:LED_SK6812-EC20_PLCC4_2.0x2.0mm"
 			(at 320.04 180.34 0)
 			(effects
 				(font
@@ -7247,7 +7257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" "RGB LED with integrated controller"
 			(at 318.77 172.72 0)
 			(effects
 				(font
@@ -8082,7 +8092,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
+		(lib_id "beavs-symbols:SK6812-EC20")
 		(at 269.24 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8098,7 +8108,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6812-EC20"
 			(at 283.21 168.8398 0)
 			(effects
 				(font
@@ -8107,7 +8117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "beavs-footprints:LED_SK6812-EC20_PLCC4_2.0x2.0mm"
 			(at 270.51 180.34 0)
 			(effects
 				(font
@@ -8127,7 +8137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" "RGB LED with integrated controller"
 			(at 269.24 172.72 0)
 			(effects
 				(font
@@ -9230,7 +9240,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
+		(lib_id "beavs-symbols:SK6812-EC20")
 		(at 335.28 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9246,7 +9256,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6812-EC20"
 			(at 349.25 168.8398 0)
 			(effects
 				(font
@@ -9255,7 +9265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "beavs-footprints:LED_SK6812-EC20_PLCC4_2.0x2.0mm"
 			(at 336.55 180.34 0)
 			(effects
 				(font
@@ -9275,7 +9285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" "RGB LED with integrated controller"
 			(at 335.28 172.72 0)
 			(effects
 				(font
@@ -9893,119 +9903,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 20.32 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbe59833-c1cd-4b25-8ef0-1a444f11f827")
-		(property "Reference" "J13"
-			(at 20.32 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 20.32 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7051x"
-			(at 24.13 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 24.13 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 20.32 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A5"
-			(uuid "1e61c61a-2bfd-4391-a1ee-d613e5ab3d2f")
-		)
-		(pin "B5"
-			(uuid "53571643-19db-43f2-b37c-e1a65bc7c343")
-		)
-		(pin "B4"
-			(uuid "ac1dfa56-22e4-440c-ad14-559c9720d86e")
-		)
-		(pin "B6"
-			(uuid "5aec909c-5519-45e6-a10c-d2a0f58e27f2")
-		)
-		(pin "A12"
-			(uuid "6917e409-b4f9-40ba-9d43-aeca2887d14e")
-		)
-		(pin "A7"
-			(uuid "59d169c1-0c27-4024-9bf7-5aa53c3a63ab")
-		)
-		(pin "S1"
-			(uuid "cc11bc8f-790e-4738-939f-34fd7e127026")
-		)
-		(pin "A8"
-			(uuid "066bc922-bf66-4154-a8d1-23efd288a6ed")
-		)
-		(pin "B12"
-			(uuid "ae748ec3-5bb3-4557-a079-276bcc5f3abc")
-		)
-		(pin "A1"
-			(uuid "1e1c29ad-55bc-414f-82b9-ba79b12c601c")
-		)
-		(pin "B7"
-			(uuid "31147cf2-e4c1-43d9-80dd-b721c983ac4b")
-		)
-		(pin "B9"
-			(uuid "ccc033a3-f4c5-4d54-b3b4-ea7bdf17682b")
-		)
-		(pin "B8"
-			(uuid "668a2c64-4d3f-44ee-99de-765408749f2d")
-		)
-		(pin "B1"
-			(uuid "22894556-38fd-4813-bab1-fd0220f2325d")
-		)
-		(pin "A9"
-			(uuid "488e42e8-0a32-4c29-9419-380c743f8429")
-		)
-		(pin "A6"
-			(uuid "c4dd969c-cb5a-4bee-b756-5719aea0c5b0")
-		)
-		(pin "A4"
-			(uuid "a121a9c3-70fb-4650-9cff-75738e54394c")
-		)
-		(instances
-			(project ""
-				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 111.76 190.5 0)
 		(unit 1)
@@ -10085,7 +9982,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
+		(lib_id "beavs-symbols:SK6812-EC20")
 		(at 252.73 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10101,7 +9998,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6812-EC20"
 			(at 266.7 168.8398 0)
 			(effects
 				(font
@@ -10110,7 +10007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "beavs-footprints:LED_SK6812-EC20_PLCC4_2.0x2.0mm"
 			(at 254 180.34 0)
 			(effects
 				(font
@@ -10130,7 +10027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" "RGB LED with integrated controller"
 			(at 252.73 172.72 0)
 			(effects
 				(font
@@ -10987,7 +10884,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B-2020")
+		(lib_id "beavs-symbols:SK6812-EC20")
 		(at 285.75 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11003,7 +10900,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-2020"
+		(property "Value" "SK6812-EC20"
 			(at 299.72 168.8398 0)
 			(effects
 				(font
@@ -11012,7 +10909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "beavs-footprints:LED_SK6812-EC20_PLCC4_2.0x2.0mm"
 			(at 287.02 180.34 0)
 			(effects
 				(font
@@ -11032,7 +10929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" "RGB LED with integrated controller"
 			(at 285.75 172.72 0)
 			(effects
 				(font
@@ -11448,7 +11345,7 @@
 			)
 		)
 		(pin "SCL" output
-			(at 176.53 77.47 0)
+			(at 176.53 81.28 0)
 			(uuid "e8bd42fa-3d82-4ba8-a70c-5b876ac7cc05")
 			(effects
 				(font
@@ -11458,7 +11355,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 176.53 74.93 0)
+			(at 176.53 78.74 0)
 			(uuid "57efe1fa-6e82-436e-b10c-818e344f077e")
 			(effects
 				(font
@@ -11475,6 +11372,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "GPIO_EXTINT" output
+			(at 176.53 74.93 0)
+			(uuid "a550a893-41ab-4633-a047-b73be5f309ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -11570,7 +11477,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 190.5 77.47 180)
+			(at 190.5 81.28 180)
 			(uuid "eea6c60d-900d-4e62-8b71-d7622ed1f8a9")
 			(effects
 				(font
@@ -11580,8 +11487,18 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 190.5 74.93 180)
+			(at 190.5 78.74 180)
 			(uuid "c9c5d0e9-2f34-4273-805c-e0873244f2a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXTINT" input
+			(at 190.5 74.93 180)
+			(uuid "af29e05a-b31b-4042-867e-8c0619e20161")
 			(effects
 				(font
 					(size 1.27 1.27)

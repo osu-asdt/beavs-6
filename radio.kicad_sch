@@ -989,6 +989,37 @@
 		)
 		(uuid "d9ccefa4-9590-485d-a310-822d49d2e660")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 139.7 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a4358eb-b312-4cb9-8cea-f3cd61f4abdd")
+		(property "Netclass" "coplanar-50"
+			(at 140.3985 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -121.92 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "RF_Module:RFM95W-915S2")
 		(at 119.38 85.09 0)
