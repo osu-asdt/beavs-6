@@ -2104,16 +2104,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "ADD MAGNETOMETER"
-		(exclude_from_sim no)
-		(at 132.334 56.642 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "780f270c-ab2a-4ce9-91a1-d7f7fc3d3225")
-	)
 	(junction
 		(at 121.92 148.59)
 		(diameter 0)
