@@ -2945,6 +2945,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 54.61) (xy 134.62 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef9f282-2cb7-4f56-8e5e-9d05823fba48")
+	)
+	(wire
+		(pts
 			(xy 193.04 107.95) (xy 198.12 107.95)
 		)
 		(stroke
@@ -2952,6 +2962,16 @@
 			(type default)
 		)
 		(uuid "41498a41-a8c0-4587-8996-7a3772a110d0")
+	)
+	(wire
+		(pts
+			(xy 130.81 52.07) (xy 134.62 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455a02b2-7805-42f3-b22b-df480c567657")
 	)
 	(wire
 		(pts
@@ -3075,6 +3095,26 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 52.07) (xy 142.24 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd77b25-85bc-4175-a640-67149185d0d0")
+	)
+	(wire
+		(pts
+			(xy 193.04 52.07) (xy 198.12 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe2847d-5278-4b36-84c1-5f34f760926d")
+	)
+	(wire
+		(pts
 			(xy 104.14 90.17) (xy 104.14 95.25)
 		)
 		(stroke
@@ -3165,16 +3205,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 52.07) (xy 142.24 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7054af87-5db0-433d-ba10-fb227599a4f7")
-	)
-	(wire
-		(pts
 			(xy 107.95 44.45) (xy 106.68 44.45)
 		)
 		(stroke
@@ -3212,6 +3242,16 @@
 			(type default)
 		)
 		(uuid "7e2803ac-e099-40f6-a4b8-ebdfa8a2ccf9")
+	)
+	(wire
+		(pts
+			(xy 139.7 54.61) (xy 142.24 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eca6049-4bbf-4a5f-a7bf-dfc052087a2a")
 	)
 	(wire
 		(pts
@@ -3555,16 +3595,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 54.61) (xy 142.24 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd35a13f-933a-4d21-a93f-a2d2ae45679e")
-	)
-	(wire
-		(pts
 			(xy 119.38 90.17) (xy 119.38 91.44)
 		)
 		(stroke
@@ -3785,7 +3815,7 @@
 	)
 	(hierarchical_label "USB_D+"
 		(shape input)
-		(at 135.89 52.07 180)
+		(at 130.81 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3882,6 +3912,17 @@
 		)
 		(uuid "623933d5-78bb-4351-9e90-22a85143abfe")
 	)
+	(hierarchical_label "LEVELSHIFT_DIR"
+		(shape output)
+		(at 198.12 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6379bca7-88da-4e86-ad92-abef30e0fad9")
+	)
 	(hierarchical_label "SD_CLK"
 		(shape input)
 		(at 198.12 102.87 0)
@@ -3961,7 +4002,7 @@
 	)
 	(hierarchical_label "USB_D-"
 		(shape input)
-		(at 135.89 54.61 180)
+		(at 130.81 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4333,7 +4374,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "15p"
 			(at 107.9563 86.36 90)
 			(effects
 				(font
@@ -4368,7 +4409,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1548"
 			(at 107.95 90.17 90)
 			(effects
 				(font
@@ -4728,6 +4769,83 @@
 			(project "beavs-sketch-0"
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/41e54b18-0bb2-4af3-8e30-a27cf4650be3"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 137.16 54.61 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3403b44b-f626-4531-a287-3d706aa88d06")
+		(property "Reference" "R13"
+			(at 137.16 59.69 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 137.16 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 137.16 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25092"
+			(at 137.16 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "914ee72b-5ab6-4060-94b3-ec803ce04195")
+		)
+		(pin "1"
+			(uuid "ab034341-efc8-4e79-b052-981b3c7fe1a0")
+		)
+		(instances
+			(project "beavs-sketch-0"
+				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/41e54b18-0bb2-4af3-8e30-a27cf4650be3"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5165,6 +5283,83 @@
 			(project "beavs-sketch-0"
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/41e54b18-0bb2-4af3-8e30-a27cf4650be3"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 137.16 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ca5aa0b-6b3f-497e-8ab7-5d8fed55e99e")
+		(property "Reference" "R12"
+			(at 137.16 46.99 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 137.16 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 137.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 137.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25092"
+			(at 137.16 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "300076b2-e4f9-4835-bb1a-b3a1ae2770c8")
+		)
+		(pin "1"
+			(uuid "cdb72493-3827-46b0-9add-48c43f895d19")
+		)
+		(instances
+			(project ""
+				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/41e54b18-0bb2-4af3-8e30-a27cf4650be3"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5782,7 +5977,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "15p"
 			(at 107.9563 96.52 90)
 			(effects
 				(font
@@ -5817,7 +6012,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1548"
 			(at 107.95 100.33 90)
 			(effects
 				(font

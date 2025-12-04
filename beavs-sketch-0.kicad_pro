@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -520,7 +520,7 @@
       "gencad": "",
       "idf": "beavs-sketch-0.emn",
       "netlist": "",
-      "plot": "",
+      "plot": "fab-files/draft-v0/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "beavs-sketch-0.step",
