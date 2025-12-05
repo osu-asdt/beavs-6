@@ -11644,7 +11644,7 @@
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d517d440-6666-4e8c-b2f1-a07d54fcee72")
+			(uuid "a7372959-97f2-4319-852e-910510e05085")
 			(effects
 				(font
 					(size 1 1)
@@ -11655,7 +11655,7 @@
 		(property "Value" "ToolingHole_1.152mm"
 			(at 0 1.6 0)
 			(layer "F.Fab")
-			(uuid "3cfe2161-e84d-4285-a8e3-7d157390eb53")
+			(uuid "edcb51de-15da-4862-b8ef-9a9a514c8207")
 			(effects
 				(font
 					(size 1 1)
@@ -11668,7 +11668,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4fa527df-2e33-4345-9ea2-6437192932fc")
+			(uuid "38cb5be3-f3aa-4a2f-961a-3ed7974c8034")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11681,7 +11681,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e232240-eb7d-49f3-b1d0-8a588d69ddd2")
+			(uuid "af8d0849-b5fa-4e66-b2cf-d33b943bb29d")
 			(effects
 				(font
 					(size 1.27 1.27)
