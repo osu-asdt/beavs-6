@@ -715,7 +715,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
-			(at 0 0 0)
+			(at 2.286 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -724,7 +724,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm74502.pdf"
-			(at 0 0 0)
+			(at 6.35 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,7 +790,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -7.62 0)
+				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "VCAP"
 					(effects
@@ -808,7 +808,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -10.16 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "OV"
 					(effects
@@ -826,7 +826,7 @@
 				)
 			)
 			(pin output line
-				(at -3.81 16.51 270)
+				(at -2.54 16.51 270)
 				(length 2.54)
 				(name "GATE"
 					(effects
@@ -880,8 +880,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 12.7 -7.62 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
