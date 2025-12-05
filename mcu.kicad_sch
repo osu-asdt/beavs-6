@@ -2745,6 +2745,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 64.77) (xy 198.12 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088d5256-8de1-412f-b070-15874b2dd46f")
+	)
+	(wire
+		(pts
 			(xy 172.72 34.29) (xy 172.72 36.83)
 		)
 		(stroke
@@ -3955,6 +3965,17 @@
 			(justify left)
 		)
 		(uuid "71530495-16a7-4adb-9937-8e02458386f5")
+	)
+	(hierarchical_label "SERVO_POWER_EN"
+		(shape output)
+		(at 198.12 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76fc7ba5-80d2-415f-bf0c-e3ef743f21d6")
 	)
 	(hierarchical_label "M_S4"
 		(shape output)
