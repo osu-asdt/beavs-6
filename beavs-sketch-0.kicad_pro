@@ -691,6 +691,10 @@
     [
       "26ece988-76d1-4a41-97fd-37d8dbe13e2a",
       "Radio"
+    ],
+    [
+      "43b34b82-cf9c-4554-a5be-2b816c03d018",
+      "Power"
     ]
   ],
   "text_variables": {}
