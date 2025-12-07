@@ -1104,6 +1104,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" ""
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "0ba97279-b271-4328-9b92-1bac3e4f97bf")
 		)
@@ -1283,6 +1292,15 @@
 			)
 		)
 		(property "LCSC" "C88374"
+			(at 151.13 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" ""
 			(at 151.13 77.47 0)
 			(effects
 				(font

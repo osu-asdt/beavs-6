@@ -1157,6 +1157,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" ""
+			(at 139.7 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "58e4073b-9e28-471c-b428-01ee8f755bc6")
 		)
@@ -1381,6 +1390,15 @@
 			)
 		)
 		(property "LCSC" "C15525"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" ""
 			(at 113.03 63.5 0)
 			(effects
 				(font
@@ -1658,6 +1676,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" ""
 			(at 95.25 97.79 0)
 			(effects
 				(font
