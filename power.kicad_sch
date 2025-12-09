@@ -1180,7 +1180,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
+			(property "Footprint" "beavs-footprints:SOT-23-8-THIN"
 				(at 2.286 32.766 0)
 				(effects
 					(font
@@ -3679,7 +3679,7 @@
 				)
 			)
 		)
-		(property "Value" "SiS402DN"
+		(property "Value" "CSD17575Q3"
 			(at 199.39 43.18 90)
 			(effects
 				(font
@@ -3687,7 +3687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+		(property "Footprint" "beavs-footprints:SON-8-1EP-3.3x3.3mm-nexfet"
 			(at 196.85 44.45 0)
 			(effects
 				(font
@@ -3714,7 +3714,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15791"
+		(property "LCSC" "C529277"
 			(at 199.39 49.53 90)
 			(effects
 				(font
@@ -4494,7 +4494,7 @@
 				)
 			)
 		)
-		(property "Value" "SiS402DN"
+		(property "Value" "CSD17575Q3"
 			(at 212.09 43.18 90)
 			(effects
 				(font
@@ -4502,7 +4502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+		(property "Footprint" "beavs-footprints:SON-8-1EP-3.3x3.3mm-nexfet"
 			(at 214.63 44.45 0)
 			(effects
 				(font
@@ -4529,7 +4529,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15791"
+		(property "LCSC" "C529277"
 			(at 212.09 49.53 90)
 			(effects
 				(font
@@ -4886,7 +4886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
+		(property "Footprint" "beavs-footprints:SOT-23-8-THIN"
 			(at 204.216 45.974 0)
 			(effects
 				(font
