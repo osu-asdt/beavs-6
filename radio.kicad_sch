@@ -943,38 +943,71 @@
 		)
 		(uuid "f8dd03f0-8ed9-4c0a-a741-8d3ca9ae591a")
 	)
-	(hierarchical_label "SCK"
-		(shape input)
-		(at 100.33 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "30f952ae-fc45-46ed-a3f4-3b96e6857304")
-	)
-	(hierarchical_label "MOSI"
-		(shape input)
-		(at 100.33 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3f772615-2050-4ed6-80bf-edaab7051b07")
-	)
-	(hierarchical_label "MISO"
+	(global_label "MISO"
 		(shape output)
 		(at 100.33 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "432c13e1-f898-449d-ae99-6ba2b4c422fb")
+		(uuid "24c3a066-ea34-4331-8a0b-d4213fbdf880")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.7486 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 100.33 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5a93f18-9a9b-44b5-b9fc-2aff18daf86e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.7486 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape input)
+		(at 100.33 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "caad46e9-9d96-4ccd-a54f-f65703b133b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.5953 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "RESET"
 		(shape input)

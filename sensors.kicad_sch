@@ -2834,6 +2834,226 @@
 		)
 		(uuid "fd4f6ec8-c2ae-46f7-837f-f1c8e679591c")
 	)
+	(global_label "SCK"
+		(shape input)
+		(at 128.27 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "021807d7-1035-467e-9fc0-2fd303ff5a24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.5353 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 209.55 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "186d0ee1-cdb1-413f-89ed-feaf3ad1fd31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.8854 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 41.91 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1954571a-02d1-4290-ab3c-b11afa6b1046")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.3286 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape output)
+		(at 128.27 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69ae147b-dcb0-415f-bbd2-9542141e6e77")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.6886 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape input)
+		(at 41.91 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78b471f4-7252-43be-a40b-dcd87e5863e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.1753 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape bidirectional)
+		(at 209.55 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fdef19b-4ab1-4d1a-b0d8-beb1a969fba7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.9459 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 128.27 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9bbd7684-fd00-4776-87ac-65906eda9ad6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.6886 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape output)
+		(at 41.91 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be6f2d87-ae27-4ff9-9cd9-5976589ae818")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.3286 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape bidirectional)
+		(at 102.87 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf26e9f6-a053-49a9-843c-dba92ec18a24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.2659 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 102.87 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2ab8d7a-37e0-40a2-ba47-cd175b8cee6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.2054 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "IMU_CS"
 		(shape input)
 		(at 41.91 92.71 180)
@@ -2844,105 +3064,6 @@
 			(justify right)
 		)
 		(uuid "06a01d33-8a85-4b45-aea5-e978e13c2bdb")
-	)
-	(hierarchical_label "SCL"
-		(shape input)
-		(at 209.55 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0ddb134a-407e-4222-9094-d677fee130c8")
-	)
-	(hierarchical_label "SCL"
-		(shape input)
-		(at 102.87 170.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "25ecf1fa-0ab7-4d0d-af15-61b475fa5bee")
-	)
-	(hierarchical_label "SCK"
-		(shape input)
-		(at 128.27 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "27ec8611-6664-4dc2-99a0-e3520c540437")
-	)
-	(hierarchical_label "MISO"
-		(shape output)
-		(at 128.27 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2c7b01ae-f579-4e4c-b5b5-7a8332b3b7a9")
-	)
-	(hierarchical_label "MOSI"
-		(shape input)
-		(at 128.27 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "46360982-c54b-46e1-9d31-9498e139f802")
-	)
-	(hierarchical_label "MOSI"
-		(shape input)
-		(at 41.91 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8243462c-a3d3-4793-a2cb-8bbf19bbc581")
-	)
-	(hierarchical_label "MISO"
-		(shape output)
-		(at 41.91 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9d218e99-23a4-4bcd-ae8e-c6ed9964120f")
-	)
-	(hierarchical_label "SDA"
-		(shape bidirectional)
-		(at 209.55 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa82ea96-2663-4112-92f5-303db0a1a667")
-	)
-	(hierarchical_label "SCK"
-		(shape input)
-		(at 41.91 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ce9e2c3e-4408-44d7-8d24-e1e7a8159574")
 	)
 	(hierarchical_label "EXTINT"
 		(shape input)
@@ -2965,17 +3086,6 @@
 			(justify right)
 		)
 		(uuid "e06f8e01-a645-493a-98c4-eeee6863970f")
-	)
-	(hierarchical_label "SDA"
-		(shape bidirectional)
-		(at 102.87 172.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ed248ce5-0698-4038-8c4f-ba579412b6c4")
 	)
 	(netclass_flag ""
 		(length 2.54)
