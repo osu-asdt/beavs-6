@@ -524,7 +524,7 @@
       "plot": "fab-files/draft-v0/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "beavs-sketch-0.step",
+      "step": "beavs.step",
       "svg": "",
       "vrml": ""
     },

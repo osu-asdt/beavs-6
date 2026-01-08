@@ -2892,6 +2892,12 @@
 		(uuid "dd49ee6c-301f-47f6-a996-43f935af76fc")
 	)
 	(junction
+		(at 124.46 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec13b199-4185-457e-a36d-3d8e4abb6560")
+	)
+	(junction
 		(at 153.67 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3052,6 +3058,16 @@
 			(type default)
 		)
 		(uuid "1a982373-02a4-4f7e-88e8-c1cf4ba632e1")
+	)
+	(wire
+		(pts
+			(xy 124.46 36.83) (xy 124.46 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd95284-3811-419f-a32e-c620e4ea08f0")
 	)
 	(wire
 		(pts
@@ -3225,6 +3241,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 44.45) (xy 142.24 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c91ac0-2b50-4db5-b9c6-e5378e0e0754")
+	)
+	(wire
+		(pts
 			(xy 130.81 52.07) (xy 134.62 52.07)
 		)
 		(stroke
@@ -3275,7 +3301,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 44.45) (xy 142.24 44.45)
+			(xy 118.11 44.45) (xy 124.46 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3792,6 +3818,16 @@
 			(type default)
 		)
 		(uuid "acbf8600-1daa-441c-b0af-47065507461c")
+	)
+	(wire
+		(pts
+			(xy 124.46 43.18) (xy 124.46 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef19563-ace3-4007-8bdd-b739f46f4698")
 	)
 	(wire
 		(pts
@@ -5990,6 +6026,94 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 124.46 40.64 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5510fc9f-6e05-42aa-bb31-77242d658aa4")
+		(property "Reference" "R14"
+			(at 121.92 39.3699 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 121.92 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 124.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 124.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 124.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" ""
+			(at 124.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7026ef66-a068-42aa-9d8e-4dd397093cdf")
+		)
+		(pin "1"
+			(uuid "0331f254-2e98-48ff-b69b-2af1630d6ab2")
+		)
+		(instances
+			(project "beavs-sketch-0"
+				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/41e54b18-0bb2-4af3-8e30-a27cf4650be3"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 223.52 48.26 0)
 		(mirror x)
 		(unit 1)
@@ -6596,6 +6720,72 @@
 			(project ""
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/41e54b18-0bb2-4af3-8e30-a27cf4650be3"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 124.46 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d623c5e-09cc-4bf0-b034-14ebbfbe6b18")
+		(property "Reference" "#PWR0134"
+			(at 124.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 124.46 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 124.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "468c9b82-e4ed-4b44-84f2-3223c0d54d1f")
+		)
+		(instances
+			(project "beavs-sketch-0"
+				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/41e54b18-0bb2-4af3-8e30-a27cf4650be3"
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
