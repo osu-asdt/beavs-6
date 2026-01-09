@@ -2169,6 +2169,10 @@
 		(uuid "01d02170-7e73-4baf-a2c4-4d1c8f28e6f9")
 	)
 	(no_connect
+		(at 80.01 107.95)
+		(uuid "0d5f0992-5ecc-421f-84eb-f52e8280fc17")
+	)
+	(no_connect
 		(at 215.9 92.71)
 		(uuid "307b290a-5889-4347-b222-4757008f5417")
 	)
@@ -2199,6 +2203,10 @@
 	(no_connect
 		(at 246.38 97.79)
 		(uuid "b5ac9ccf-765a-4aec-82ed-3fb14de81a16")
+	)
+	(no_connect
+		(at 80.01 110.49)
+		(uuid "b740e8e4-021a-48ab-8d20-5a45245e659c")
 	)
 	(no_connect
 		(at 80.01 92.71)
@@ -4804,6 +4812,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 265.43 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a10c1c0-5b06-41f4-99d4-0e3f292e0ddd")
+		(property "Reference" "R11"
+			(at 265.43 105.41 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 265.43 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 265.43 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 265.43 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 265.43 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" ""
+			(at 265.43 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97e8801a-737e-4cb0-a8ac-fc4539be6c35")
+		)
+		(pin "2"
+			(uuid "a2c5b694-1482-4f12-bb28-faafac3e7ae7")
+		)
+		(instances
+			(project "beavs-sketch-0"
+				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/c418f66a-3bfd-48e4-bf5e-1b050c211ac2"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 280.67 111.76 0)
 		(unit 1)
@@ -5429,92 +5522,6 @@
 			(project "beavs-sketch-0"
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/c418f66a-3bfd-48e4-bf5e-1b050c211ac2"
 					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 265.43 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d438314b-785a-4e3d-bf4c-3b976529753e")
-		(property "Reference" "R11"
-			(at 265.43 105.41 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "120"
-			(at 265.43 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 265.43 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 265.43 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25077"
-			(at 265.43 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" ""
-			(at 265.43 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2baa181-ce47-4ffb-97bc-986b5e07573b")
-		)
-		(pin "2"
-			(uuid "a46fd6ad-b201-4b31-8495-8ae31b8af6eb")
-		)
-		(instances
-			(project ""
-				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/c418f66a-3bfd-48e4-bf5e-1b050c211ac2"
-					(reference "R11")
 					(unit 1)
 				)
 			)
