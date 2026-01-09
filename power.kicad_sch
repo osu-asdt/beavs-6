@@ -561,6 +561,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2048,6 +2173,12 @@
 		(uuid "2113e793-986b-4b7f-a06a-39a6607004ed")
 	)
 	(junction
+		(at 177.8 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5127c4ce-f66f-4ac3-af85-e6214b0c4b13")
+	)
+	(junction
 		(at 130.81 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2199,7 +2330,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 73.66) (xy 189.23 73.66)
+			(xy 175.26 73.66) (xy 177.8 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2266,6 +2397,16 @@
 			(type default)
 		)
 		(uuid "3b200e57-c15c-4ed3-a59d-7b24ee3007b9")
+	)
+	(wire
+		(pts
+			(xy 177.8 73.66) (xy 189.23 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f952bd2-a6c8-4efc-83ef-4ac39b7cee68")
 	)
 	(wire
 		(pts
@@ -2366,6 +2507,16 @@
 			(type default)
 		)
 		(uuid "6508e0fa-61cc-4f78-bddf-33c0b2aedb88")
+	)
+	(wire
+		(pts
+			(xy 177.8 73.66) (xy 177.8 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651c6559-afb3-4f7d-b5be-65e11bf66d24")
 	)
 	(wire
 		(pts
@@ -2599,7 +2750,7 @@
 	)
 	(hierarchical_label "EN"
 		(shape input)
-		(at 182.88 73.66 180)
+		(at 175.26 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4477,6 +4628,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 177.8 77.47 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c65c982c-e1a1-4a5a-9d69-6ade807fe668")
+		(property "Reference" "R15"
+			(at 175.26 76.1999 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 175.26 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" ""
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e10f3b0-fe5e-49c4-bcc3-7dd4b1f7ab05")
+		)
+		(pin "1"
+			(uuid "71056165-b7c0-4a11-afd4-11aebdab3cce")
+		)
+		(instances
+			(project "beavs-sketch-0"
+				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/43b34b82-cf9c-4554-a5be-2b816c03d018"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_SSSGD_AvalancheRated")
 		(at 212.09 49.53 270)
 		(mirror x)
@@ -4853,6 +5092,72 @@
 			(project "beavs-sketch-0"
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/43b34b82-cf9c-4554-a5be-2b816c03d018"
 					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f678b8af-88a9-4fd2-aece-86c68d3b3bb4")
+		(property "Reference" "#PWR0136"
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c51774f-3e93-4b67-bb30-be60a638f5c4")
+		)
+		(instances
+			(project ""
+				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/43b34b82-cf9c-4554-a5be-2b816c03d018"
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
