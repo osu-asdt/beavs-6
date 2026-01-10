@@ -6216,6 +6216,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "SAM1156-01-ND"
+			(at 100.33 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0dee474c-ca1b-4b0a-ba9c-a77fedeb4efc")
 		)
