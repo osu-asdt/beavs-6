@@ -470,7 +470,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "beavs-sketch-0.kicad_pro",
+    "filename": "beavs-6.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -519,7 +519,7 @@
   "pcbnew": {
     "last_paths": {
       "gencad": "",
-      "idf": "beavs-sketch-0.emn",
+      "idf": "beavs-6.emn",
       "netlist": "",
       "plot": "fab-files/draft-v0/",
       "pos_files": "",
