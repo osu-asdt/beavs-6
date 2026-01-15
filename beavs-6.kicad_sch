@@ -3493,6 +3493,76 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Baro"
+		(exclude_from_sim no)
+		(at 352.552 156.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0ddc9f8c-4bf8-40e8-9b49-594268452f8f")
+	)
+	(text "SD"
+		(exclude_from_sim no)
+		(at 302.768 156.972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4278dec9-aefb-41f8-8e63-9a926e9e945e")
+	)
+	(text "IMU"
+		(exclude_from_sim no)
+		(at 336.55 156.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "48fe86c0-36e7-42b5-862f-5be9b924ef39")
+	)
+	(text "Radio"
+		(exclude_from_sim no)
+		(at 319.532 156.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58bcebb7-5dab-450c-b2d0-6ac091b96135")
+	)
+	(text "Status"
+		(exclude_from_sim no)
+		(at 384.81 156.972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d7a3122-8b87-4239-86ec-0da8a1a0ab6b")
+	)
+	(text "Active high; must be held low on\nstartup to limit inrush current"
+		(exclude_from_sim no)
+		(at 132.842 131.826 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8a92bad-fb86-486f-9bba-653da99048c5")
+	)
+	(text "Magn"
+		(exclude_from_sim no)
+		(at 368.554 156.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb902172-5f88-4ef0-b8f0-68ef407435bf")
+	)
 	(junction
 		(at 271.78 142.24)
 		(diameter 0)
@@ -7715,7 +7785,7 @@
 			)
 		)
 		(instances
-			(project "beavs-sketch-0"
+			(project "beavs-6"
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1"
 					(page "6")
 				)
@@ -7976,7 +8046,7 @@
 				(justify left)
 			)
 		)
-		(pin "GPIO_EXTINT" output
+		(pin "GPS_EXTINT" output
 			(at 223.52 69.85 0)
 			(uuid "a550a893-41ab-4633-a047-b73be5f309ce")
 			(effects
@@ -8007,7 +8077,7 @@
 			)
 		)
 		(instances
-			(project "beavs-sketch-0"
+			(project "beavs-6"
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1"
 					(page "2")
 				)
@@ -8059,7 +8129,7 @@
 			)
 		)
 		(instances
-			(project "beavs-sketch-0"
+			(project "beavs-6"
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1"
 					(page "7")
 				)
@@ -8131,7 +8201,7 @@
 			)
 		)
 		(instances
-			(project "beavs-sketch-0"
+			(project "beavs-6"
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1"
 					(page "5")
 				)
@@ -8233,7 +8303,7 @@
 			)
 		)
 		(instances
-			(project "beavs-sketch-0"
+			(project "beavs-6"
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1"
 					(page "3")
 				)
@@ -8335,7 +8405,7 @@
 			)
 		)
 		(instances
-			(project "beavs-sketch-0"
+			(project "beavs-6"
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1"
 					(page "4")
 				)
