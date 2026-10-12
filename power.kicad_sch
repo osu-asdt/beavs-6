@@ -791,362 +791,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_NMOS_SSSGD_AvalancheRated"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS_SSSGD_AvalancheRated"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, source (pins 1-3)/gate/drain (pin 5), SO-8/SO-8F/SO-8FL/SON-8/PowerPAK-8/TDSON-8/VSON-8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_NMOS_SSSGD_AvalancheRated_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_NMOS_SSSGD_AvalancheRated_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "beavs-symbols:LM74502"
+		(symbol "beavs-symbols:TPS25983"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 7.874 15.748 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM74502"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1156,29 +807,17 @@
 					)
 				)
 			)
-			(property "Footprint" "beavs-footprints:SOT-23-8-THIN"
-				(at 2.286 32.766 0)
+			(property "Value" "TPS25983"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm74502.pdf"
-				(at 6.35 35.814 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
+			(property "Footprint" "beavs-footprints:Texas_RGE0024M_QFN-24_4x4_Pitch0.5mm_2EP"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1189,10 +828,32 @@
 					)
 				)
 			)
-			(symbol "LM74502_1_1"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps25983.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2.7~26V, 2.7mΩ, 20A efuse with current monitoring"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPS25983_1_1"
 				(rectangle
-					(start -10.16 13.97)
-					(end 10.16 -13.97)
+					(start -12.7 12.7)
+					(end 12.7 -12.7)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1202,100 +863,9 @@
 					)
 				)
 				(pin input line
-					(at -12.7 5.08 0)
+					(at -15.24 5.08 0)
 					(length 2.54)
 					(name "EN/UVLO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -16.51 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "VCAP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -2.54 16.51 270)
-					(length 2.54)
-					(name "GATE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1310,10 +880,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 -7.62 0)
+				(pin output line
+					(at -15.24 -10.16 0)
 					(length 2.54)
-					(name "OV"
+					(name "ITIMER"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1328,10 +898,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 3.81 16.51 270)
+				(pin output line
+					(at -15.24 -7.62 0)
 					(length 2.54)
-					(name "SRC"
+					(name "ILIM"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1339,6 +909,168 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -1.27 180)
+					(length 2.54)
+					(name "IMON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "RETRY_DLY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "NRETRY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 1.27 0)
+					(length 2.54)
+					(name "OVLO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 1.27 180)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "DVDT/BGATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "[1,2,3,16,25]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "[4,5,14,26]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 10.16 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "[17,18,19,20,21,22,23,24]"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2076,22 +1808,10 @@
 		(uuid "5e6bc8c3-5f4e-4ee2-aa83-766b86e311c0")
 	)
 	(junction
-		(at 135.89 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f24fe60-ad4e-49a8-9d2d-27ef28c74cf1")
-	)
-	(junction
 		(at 109.22 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fa20a46-19cd-4201-97b0-9db9beb9c087")
-	)
-	(junction
-		(at 130.81 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "892cdb13-3463-4f67-b911-96eac0822e96")
 	)
 	(junction
 		(at 88.9 63.5)
@@ -2100,48 +1820,10 @@
 		(uuid "919e1c5d-c595-4bf4-82c6-ceb76e19b7b8")
 	)
 	(junction
-		(at 135.89 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "994e43bf-b383-4829-bf9b-ec66d776c2a8")
-	)
-	(junction
 		(at 83.82 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b69e262b-0d03-4705-98b6-e16fbab558eb")
-	)
-	(junction
-		(at 153.67 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be16a413-e82c-417f-aa72-47860b762f44")
-	)
-	(junction
-		(at 135.89 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c826bd09-ea7c-4cc3-b9be-c8b6a909f13f")
-	)
-	(wire
-		(pts
-			(xy 137.16 102.87) (xy 135.89 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02bff4ff-ad57-4fb3-b9f4-dfd18f4aaddf")
-	)
-	(wire
-		(pts
-			(xy 153.67 63.5) (xy 254 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "044f5dbf-920a-4957-9acf-08ae5de12252")
 	)
 	(wire
 		(pts
@@ -2152,16 +1834,6 @@
 			(type default)
 		)
 		(uuid "044f5fbc-b286-4695-826f-4d20c44ec26b")
-	)
-	(wire
-		(pts
-			(xy 135.89 90.17) (xy 137.16 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f596681-fe2e-4b01-987e-a9f5263caafe")
 	)
 	(wire
 		(pts
@@ -2215,36 +1887,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 102.87) (xy 135.89 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28b869e9-e96c-4ce6-96df-c79f6619010f")
-	)
-	(wire
-		(pts
-			(xy 135.89 63.5) (xy 142.24 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28df5cfa-14ac-4f71-b3d4-d4d4f1d51bbf")
-	)
-	(wire
-		(pts
-			(xy 135.89 92.71) (xy 137.16 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29552eb1-6491-4932-b0c7-d1f42a759d14")
-	)
-	(wire
-		(pts
 			(xy 83.82 104.14) (xy 83.82 105.41)
 		)
 		(stroke
@@ -2262,16 +1904,6 @@
 			(type default)
 		)
 		(uuid "3b200e57-c15c-4ed3-a59d-7b24ee3007b9")
-	)
-	(wire
-		(pts
-			(xy 153.67 63.5) (xy 153.67 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49aa0301-2ad2-44dd-9637-cc7a45f3100a")
 	)
 	(wire
 		(pts
@@ -2295,16 +1927,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 64.77) (xy 130.81 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "543c25a0-8a74-48ec-b118-118bf8e22ad9")
-	)
-	(wire
-		(pts
 			(xy 68.58 90.17) (xy 68.58 88.9)
 		)
 		(stroke
@@ -2312,16 +1934,6 @@
 			(type default)
 		)
 		(uuid "5aa101a9-53cf-4436-9c6d-d7b9577afc6a")
-	)
-	(wire
-		(pts
-			(xy 152.4 63.5) (xy 153.67 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dd422fe-7ce0-44ff-a8b9-af43f787b11f")
 	)
 	(wire
 		(pts
@@ -2395,16 +2007,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 71.12) (xy 147.32 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9b83e7d-694b-4376-9719-27c608bb565b")
-	)
-	(wire
-		(pts
 			(xy 109.22 100.33) (xy 109.22 104.14)
 		)
 		(stroke
@@ -2412,36 +2014,6 @@
 			(type default)
 		)
 		(uuid "a9eccda4-46b9-4df2-be29-1e7e5ffb313c")
-	)
-	(wire
-		(pts
-			(xy 135.89 93.98) (xy 135.89 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beb08ce6-4a5e-4c5e-8ef3-a9088c9f3a86")
-	)
-	(wire
-		(pts
-			(xy 137.16 100.33) (xy 135.89 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c13f1fac-86ed-4018-ba84-fbf927a6429c")
-	)
-	(wire
-		(pts
-			(xy 130.81 63.5) (xy 135.89 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2501186-7f87-42e9-81ae-e03b0ab2f989")
 	)
 	(wire
 		(pts
@@ -2455,7 +2027,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 63.5) (xy 130.81 63.5)
+			(xy 88.9 63.5) (xy 190.5 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2475,6 +2047,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 63.5) (xy 254 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ac805d-ba6f-4ac0-a3b6-8e677c053735")
+	)
+	(wire
+		(pts
 			(xy 82.55 139.7) (xy 78.74 139.7)
 		)
 		(stroke
@@ -2482,26 +2064,6 @@
 			(type default)
 		)
 		(uuid "d2c6eb58-f4fe-4dad-9826-208532c3e80e")
-	)
-	(wire
-		(pts
-			(xy 135.89 100.33) (xy 135.89 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4f385d3-0d67-4cfc-b0e3-7784d87dd41a")
-	)
-	(wire
-		(pts
-			(xy 135.89 63.5) (xy 135.89 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8f5223a-9456-4cf4-aa11-bd93380fc89f")
 	)
 	(wire
 		(pts
@@ -2522,16 +2084,6 @@
 			(type default)
 		)
 		(uuid "e932daa9-a03c-40d0-9b6d-7909b109fa48")
-	)
-	(wire
-		(pts
-			(xy 135.89 90.17) (xy 135.89 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe030662-f25f-401b-8a0b-16ec56cc4847")
 	)
 	(symbol
 		(lib_id "power:VBUS")
@@ -2925,84 +2477,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "149fddab-31de-4a23-b752-942d037ca55e")
-		(property "Reference" "#PWR058"
-			(at 149.86 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "05c902d6-1d99-44b8-b00e-713394204d58")
-		)
-		(instances
-			(project "beavs-6"
-				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/43b34b82-cf9c-4554-a5be-2b816c03d018"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 96.52 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -3074,110 +2548,6 @@
 			(project "beavs-6"
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/43b34b82-cf9c-4554-a5be-2b816c03d018"
 					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 130.81 67.31 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2b896b41-2f1c-4fdd-b356-131f00e9f791")
-		(property "Reference" "C46"
-			(at 128.27 66.0462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220n"
-			(at 128.27 68.5862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 130.81 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 130.81 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C16772"
-			(at 130.81 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "digikey" ""
-			(at 130.81 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5eb4604-2401-46bf-9bba-99b51f091778")
-		)
-		(pin "2"
-			(uuid "d528c2c7-c79e-47c6-8b9a-0300b6432234")
-		)
-		(instances
-			(project "beavs-6"
-				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/43b34b82-cf9c-4554-a5be-2b816c03d018"
-					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -3334,6 +2704,194 @@
 			(project "beavs-6"
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/43b34b82-cf9c-4554-a5be-2b816c03d018"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "beavs-symbols:TPS25983")
+		(at 205.74 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d0290c9-ac56-459b-a0fe-bc0a484615c0")
+		(property "Reference" "U4"
+			(at 205.74 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS25983"
+			(at 205.74 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "beavs-footprints:Texas_RGE0024M_QFN-24_4x4_Pitch0.5mm_2EP"
+			(at 205.74 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps25983.pdf"
+			(at 205.74 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.7~26V, 2.7mΩ, 20A efuse with current monitoring"
+			(at 205.74 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "77d7595f-0214-4afa-86f7-24b34ed84e17")
+		)
+		(pin "[17,18,19,20,21,22,23,24]"
+			(uuid "89e92ce4-8f24-479b-beb2-c198a03b3164")
+		)
+		(pin "7"
+			(uuid "6d4db917-721c-4591-8ed6-47c14bf7af1c")
+		)
+		(pin "8"
+			(uuid "bc3247b3-6fe1-4a49-8388-2779c64540f0")
+		)
+		(pin "[1,2,3,16,25]"
+			(uuid "38654d82-dd35-4265-bc96-3a58911b6765")
+		)
+		(pin "13"
+			(uuid "371bfc3a-4ccc-404a-9d33-c286096f4f57")
+		)
+		(pin "11"
+			(uuid "32bbe5d8-440a-4b8a-a417-887b519bf87d")
+		)
+		(pin "12"
+			(uuid "c4c43738-ba5c-4551-b2bc-ae4fd271a465")
+		)
+		(pin "10"
+			(uuid "ab9c96e6-4b29-461e-a8dd-851844107cc3")
+		)
+		(pin "9"
+			(uuid "a8adbccb-a62b-4570-a5d9-428d8d418951")
+		)
+		(pin "[4,5,14,26]"
+			(uuid "35717afd-4e7e-4b47-b823-48061156519c")
+		)
+		(pin "15"
+			(uuid "12318629-391a-42d6-9d86-f75fbbfc7002")
+		)
+		(instances
+			(project "beavs-6"
+				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/43b34b82-cf9c-4554-a5be-2b816c03d018"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3edc9796-33d4-4b19-a263-618fecec3444")
+		(property "Reference" "#PWR0120"
+			(at 205.74 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a2aa00c-b521-4c7d-9e78-943419c9e785")
+		)
+		(instances
+			(project "beavs-6"
+				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/43b34b82-cf9c-4554-a5be-2b816c03d018"
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -3672,194 +3230,6 @@
 			(project "beavs-6"
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/43b34b82-cf9c-4554-a5be-2b816c03d018"
 					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_SSSGD_AvalancheRated")
-		(at 147.32 66.04 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "675edb86-fc77-48b5-a30c-fa36b9d9d381")
-		(property "Reference" "Q1"
-			(at 147.32 57.15 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CSD17575Q3"
-			(at 147.32 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "beavs-footprints:SON-8-1EP-3.3x3.3mm-nexfet"
-			(at 144.78 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, source (pins 1-3)/gate/drain (pin 5), SO-8/SO-8F/SO-8FL/SON-8/PowerPAK-8/TDSON-8/VSON-8"
-			(at 147.32 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C529277"
-			(at 147.32 66.04 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "digikey" ""
-			(at 147.32 66.04 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "6807ab3e-5fa7-46eb-b242-011591ae8bf3")
-		)
-		(pin "4"
-			(uuid "af2c6a22-9e89-4b0a-8ccf-3af3a7d6b896")
-		)
-		(pin "3"
-			(uuid "55c20c83-de80-43f7-9657-7477dfdfeacf")
-		)
-		(pin "2"
-			(uuid "72a6c676-a3b6-4c8e-9966-e53f4f6591cb")
-		)
-		(pin "1"
-			(uuid "dd17d50b-f860-4ec1-b65c-32bd35fc546f")
-		)
-		(instances
-			(project "beavs-6"
-				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/43b34b82-cf9c-4554-a5be-2b816c03d018"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7144f961-b60c-4836-9cf9-62eeeeefd8bd")
-		(property "Reference" "#PWR0123"
-			(at 130.81 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9c3464e-63e2-4f19-9d9f-85aeb8900b9b")
-		)
-		(instances
-			(project "beavs-6"
-				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/43b34b82-cf9c-4554-a5be-2b816c03d018"
-					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -4356,189 +3726,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 135.89 96.52 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bcf1dd31-63dc-438e-b6ef-29bf858974c3")
-		(property "Reference" "C45"
-			(at 133.35 95.2562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220n"
-			(at 133.35 97.7962 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 135.89 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 135.89 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C16772"
-			(at 135.89 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "digikey" ""
-			(at 135.89 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "88ec6a55-9fd1-4635-aa19-9893dea838ca")
-		)
-		(pin "2"
-			(uuid "5199c3a0-2836-4702-94f5-3f39cb69f1ec")
-		)
-		(instances
-			(project "beavs-6"
-				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/43b34b82-cf9c-4554-a5be-2b816c03d018"
-					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 135.89 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdd0a685-78ef-4b9c-a9ee-36e9f549ac09")
-		(property "Reference" "#PWR0122"
-			(at 135.89 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "978e2bf2-7911-4166-9596-bb80ce5e3ade")
-		)
-		(instances
-			(project "beavs-6"
-				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/43b34b82-cf9c-4554-a5be-2b816c03d018"
-					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
 		(at 96.52 104.14 0)
 		(unit 1)
@@ -4872,128 +4059,6 @@
 			(project "beavs-6"
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/43b34b82-cf9c-4554-a5be-2b816c03d018"
 					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "beavs-symbols:LM74502")
-		(at 149.86 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff749f5d-063a-4bdd-9be2-64a551fce8d6")
-		(property "Reference" "U19"
-			(at 161.29 93.9799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM74502"
-			(at 161.29 96.5199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "beavs-footprints:SOT-23-8-THIN"
-			(at 152.146 62.484 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm74502.pdf"
-			(at 156.21 59.436 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5219203"
-			(at 149.86 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "digikey" ""
-			(at 149.86 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "f5b17128-3e72-4d57-81b4-99cd260336eb")
-		)
-		(pin "1"
-			(uuid "8df342fc-4e06-4c74-b04a-0fc80a283e9b")
-		)
-		(pin "5"
-			(uuid "4aa8af09-0da8-4555-9556-8efd5832d609")
-		)
-		(pin "4"
-			(uuid "72527293-cd3b-4b2d-92b4-bc462cf6ee54")
-		)
-		(pin "8"
-			(uuid "b8524268-d9a0-4f16-854e-80e41078135e")
-		)
-		(pin "2"
-			(uuid "4746877d-4da9-48b9-8f5f-cea2369b1c3c")
-		)
-		(pin "6"
-			(uuid "d33c25d5-9934-424d-a714-295cc333a7fa")
-		)
-		(pin "7"
-			(uuid "fd027bcc-1f9d-435c-b3a3-18a5477e7894")
-		)
-		(instances
-			(project "beavs-6"
-				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1/43b34b82-cf9c-4554-a5be-2b816c03d018"
-					(reference "U19")
 					(unit 1)
 				)
 			)

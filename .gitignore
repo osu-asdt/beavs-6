@@ -1,7 +1,7 @@
 *autosave*
 *cache*
 *.lck
-*backups
+*backup*
 \#auto_saved_files#
 fab-files
 fabrication-toolkit-options.json
