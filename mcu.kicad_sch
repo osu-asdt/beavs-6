@@ -4329,6 +4329,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 118.11) (xy 198.12 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc58d47e-1e9c-4cfd-92ac-50842c1662ef")
+	)
+	(wire
+		(pts
 			(xy 219.71 20.32) (xy 229.87 20.32)
 		)
 		(stroke
@@ -4579,6 +4589,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 97.79) (xy 198.12 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa2a9f63-afb0-482c-aa6f-85f65730ec77")
+	)
+	(wire
+		(pts
 			(xy 193.04 100.33) (xy 198.12 100.33)
 		)
 		(stroke
@@ -4606,16 +4626,6 @@
 			(type default)
 		)
 		(uuid "fcd1b80b-d67e-430f-a373-8818a8c8e0be")
-	)
-	(wire
-		(pts
-			(xy 193.04 118.11) (xy 198.12 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "febb47e1-b13e-4e8c-90bf-109d206c2c2f")
 	)
 	(wire
 		(pts
@@ -4842,6 +4852,17 @@
 		)
 		(uuid "288e7469-d219-44b3-87cd-c73aa1d30042")
 	)
+	(hierarchical_label "IMON"
+		(shape input)
+		(at 198.12 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2df8a074-43fe-4dce-ad37-f4cd316a77e3")
+	)
 	(hierarchical_label "BATTERY_SENSE"
 		(shape input)
 		(at 198.12 120.65 0)
@@ -4952,17 +4973,6 @@
 		)
 		(uuid "8b19d845-fa2e-443b-bab5-3747f54ff139")
 	)
-	(hierarchical_label "ARM_SWITCH"
-		(shape input)
-		(at 198.12 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9e286e28-fdc7-4ec4-868e-b7202632a371")
-	)
 	(hierarchical_label "SD_DAT2"
 		(shape input)
 		(at 198.12 69.85 0)
@@ -4984,6 +4994,17 @@
 			(justify right)
 		)
 		(uuid "b146cf39-b9fa-48aa-a4a8-ade4677f763f")
+	)
+	(hierarchical_label "ARM_SWITCH"
+		(shape input)
+		(at 198.12 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b570db5e-87f8-4e64-83ab-5cb3cf5f286e")
 	)
 	(hierarchical_label "SD_DAT0"
 		(shape input)
@@ -5086,6 +5107,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 219.71 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 219.71 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -5278,6 +5310,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 123.19 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3514e8cf-0dc4-4b86-b3ca-a1cb84f5f796")
 		)
@@ -5448,6 +5491,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 113.03 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 113.03 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5949,6 +6003,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 137.16 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "914ee72b-5ab6-4060-94b3-ec803ce04195")
 		)
@@ -6043,6 +6108,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 189.23 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 189.23 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -6314,6 +6390,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 74.93 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f4301240-76bc-49dc-97e0-e4d599f58fc0")
 		)
@@ -6497,6 +6584,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 209.55 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eef790a2-5631-41d1-9d3c-f75d8314e701")
 		)
@@ -6589,6 +6687,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 137.16 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 137.16 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -6701,6 +6810,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 101.6 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "32184cd0-937f-4c4b-a398-54429d4efc58")
 		)
@@ -6790,6 +6910,17 @@
 			)
 		)
 		(property "digikey" "SAM1156-01-ND"
+			(at 100.33 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 100.33 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -6904,6 +7035,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 124.46 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7026ef66-a068-42aa-9d8e-4dd397093cdf")
 		)
@@ -6998,6 +7140,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 223.52 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 223.52 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7180,6 +7333,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 133.35 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 133.35 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -7449,6 +7613,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 153.67 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "de4c2111-ecdb-407e-91e4-78bbeddea8b9")
 		)
@@ -7687,6 +7862,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 92.71 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "1a25b335-b05d-4bbb-a836-455809ab1f27")
 		)
@@ -7884,6 +8070,17 @@
 		)
 		(property "digikey" ""
 			(at 114.3 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 114.3 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8387,6 +8584,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 143.51 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "63c637fe-05d2-4ff3-8b99-c93370ddcc48")
 		)
@@ -8560,6 +8768,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 78.74 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 78.74 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8770,6 +8989,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 181.61 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "14f9718e-4907-4272-885e-e38c951f7022")
 		)
@@ -8842,6 +9072,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 256.54 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 256.54 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8952,6 +9193,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 199.39 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 199.39 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -9298,6 +9550,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 113.03 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6a1b6601-023a-4168-a422-7f3aa38411a0")
 		)
@@ -9392,6 +9655,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 229.87 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 229.87 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -9503,6 +9777,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 119.38 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab1df3a5-8d58-4f49-9a0b-273f6c13e6e7")
 		)
@@ -9594,6 +9879,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 132.08 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 132.08 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -9775,6 +10071,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 226.06 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 226.06 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9967,6 +10274,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 240.03 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3346418d-dd8b-4bc8-b40f-81bd292ed112")
 		)
@@ -10061,6 +10379,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 167.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 167.64 82.55 0)
 			(hide yes)
 			(show_name no)

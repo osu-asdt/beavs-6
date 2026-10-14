@@ -4387,6 +4387,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 59.69 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0b2c0b3b-e5fe-4444-98a5-fd248301bdf6")
 		)
@@ -4604,6 +4615,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 93.98 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1f61ca89-e81e-406b-b381-04d5fc774c8e")
 		)
@@ -4690,6 +4712,17 @@
 			)
 		)
 		(property "digikey" "1727-5361-1-ND"
+			(at 167.64 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 167.64 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -4805,6 +4838,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 53.34 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "950e54af-0f8f-40c9-a3ea-4b67221d044b")
 		)
@@ -4888,6 +4932,17 @@
 			)
 		)
 		(property "digikey" "1727-5361-1-ND"
+			(at 87.63 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 87.63 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -5147,6 +5202,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 130.81 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f5f3e091-28f5-4fa3-bfda-51a01d10cd9f")
 		)
@@ -5230,6 +5296,17 @@
 			)
 		)
 		(property "digikey" "1727-5361-1-ND"
+			(at 87.63 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 87.63 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -5500,6 +5577,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 93.98 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1f61ca89-e81e-406b-b381-04d5fc774c8f")
 		)
@@ -5664,6 +5752,17 @@
 			)
 		)
 		(property "digikey" "399-ESK227M010AC3AA-ND"
+			(at 140.97 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 140.97 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -5846,6 +5945,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 138.43 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 138.43 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6065,6 +6175,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 133.35 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 133.35 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6648,6 +6769,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 173.99 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1f61ca89-e81e-406b-b381-04d5fc774c91")
 		)
@@ -6812,6 +6944,17 @@
 			)
 		)
 		(property "digikey" "399-ESK227M010AC3AA-ND"
+			(at 120.65 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 120.65 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -7083,6 +7226,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 212.09 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ed2ca393-e2ce-44f6-9625-cd459f6e1ddd")
 		)
@@ -7343,6 +7497,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 218.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bd083bfa-eafa-493e-a79f-3160e40555d6")
 		)
@@ -7551,6 +7716,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 80.01 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 80.01 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -8447,6 +8623,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 59.69 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a2242700-7d1a-47a4-901c-679ccf8adc58")
 		)
@@ -8578,6 +8765,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 53.34 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 53.34 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8927,6 +9125,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 172.72 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1f61ca89-e81e-406b-b381-04d5fc774c92")
 		)
@@ -9024,6 +9233,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 139.7 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 139.7 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9252,6 +9472,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 80.01 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c93d7027-5f3d-48f0-9923-cd6b8fea9f3f")
 		)
@@ -9346,6 +9577,17 @@
 			)
 		)
 		(property "digikey" "455-B3P-VH-ND"
+			(at 252.73 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 252.73 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9520,6 +9762,17 @@
 			)
 		)
 		(property "digikey" "1727-5361-1-ND"
+			(at 246.38 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 246.38 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -9868,6 +10121,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 80.01 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "860dfc5e-580a-4267-a583-5f3cbb446b11")
 		)
@@ -9962,6 +10226,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 80.01 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 80.01 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10077,6 +10352,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 132.08 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9ab9b0e8-662a-440e-97f3-8f062119acb4")
 		)
@@ -10160,6 +10446,17 @@
 			)
 		)
 		(property "digikey" "1727-5361-1-ND"
+			(at 166.37 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 166.37 64.77 90)
 			(hide yes)
 			(show_name no)

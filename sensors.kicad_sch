@@ -2114,6 +2114,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 44.45 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "35b53543-9313-4a6e-b72d-ee47db1f1ea7")
 		)
@@ -2285,6 +2296,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 142.24 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 142.24 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -2621,6 +2643,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 34.29 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 34.29 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3046,6 +3079,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 138.43 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "0ef38d40-40b1-47bf-96fb-5127bbdce43d")
 		)
@@ -3402,6 +3446,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 49.53 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "b8cac47d-1bf9-4c34-8956-a3bb80b49422")
 		)
@@ -3526,6 +3581,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 64.77 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 64.77 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -3718,6 +3784,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 55.88 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "06281a15-b774-4e9d-ad43-3ec7c5af58c0")
 		)
@@ -3812,6 +3889,17 @@
 			)
 		)
 		(property "digikey" "497-ISM6HG256XTRCT-ND"
+			(at 53.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 53.34 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3952,6 +4040,17 @@
 			)
 		)
 		(property "digikey" ""
+			(at 63.5 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 63.5 138.43 0)
 			(hide yes)
 			(show_name no)
