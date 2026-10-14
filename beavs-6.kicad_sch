@@ -3347,6 +3347,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 138.43) (xy 171.45 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "056cffba-7950-4300-8cfc-7a2962ba7374")
+	)
+	(wire
+		(pts
 			(xy 158.75 189.23) (xy 158.75 187.96)
 		)
 		(stroke
@@ -3624,6 +3634,16 @@
 			(type default)
 		)
 		(uuid "54e498d7-0ec4-40b3-aeb1-6124c10feb45")
+	)
+	(wire
+		(pts
+			(xy 96.52 140.97) (xy 171.45 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5577f7e6-0d2a-447f-b76b-c44b6e773345")
 	)
 	(wire
 		(pts
@@ -7492,6 +7512,26 @@
 				(justify right)
 			)
 		)
+		(pin "IMON" input
+			(at 171.45 138.43 180)
+			(uuid "be1e22cf-54e7-4914-b506-4e082528df68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG" input
+			(at 171.45 140.97 180)
+			(uuid "6e3b339a-3649-448f-bd2f-8f18fd1be602")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "beavs-6"
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1"
@@ -7541,6 +7581,26 @@
 		(pin "EN" input
 			(at 96.52 135.89 0)
 			(uuid "468dc3df-b63f-4d0b-bc04-55da73b86ce5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMON" output
+			(at 96.52 138.43 0)
+			(uuid "16aacd22-68f6-4a6d-97d7-726751659ad5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PG" output
+			(at 96.52 140.97 0)
+			(uuid "1ac3a439-6ceb-4285-bffd-b5c420943a9e")
 			(effects
 				(font
 					(size 1.27 1.27)

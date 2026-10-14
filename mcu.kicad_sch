@@ -3609,6 +3609,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 92.71) (xy 198.12 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29466dab-8a1d-4e56-a5c5-4f4bce5c9096")
+	)
+	(wire
+		(pts
 			(xy 162.56 34.29) (xy 162.56 36.83)
 		)
 		(stroke
@@ -5005,6 +5015,17 @@
 			(justify left)
 		)
 		(uuid "b570db5e-87f8-4e64-83ab-5cb3cf5f286e")
+	)
+	(hierarchical_label "PG"
+		(shape input)
+		(at 198.12 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8e9e154-7a9c-4137-a98d-72bac279744a")
 	)
 	(hierarchical_label "SD_DAT0"
 		(shape input)
