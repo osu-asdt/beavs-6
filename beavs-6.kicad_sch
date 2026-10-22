@@ -3282,10 +3282,28 @@
 		(uuid "2178d3d1-2f13-4481-bd9a-f6113bc8bf3f")
 	)
 	(junction
+		(at 313.69 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2903dd2d-2da3-4395-b9cd-41106fc03be0")
+	)
+	(junction
+		(at 323.85 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3421a14c-0b92-4fed-a7c9-98bdb8b20b70")
+	)
+	(junction
 		(at 146.05 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a6dcd9a-a08a-4bd6-8cd0-a061506979f5")
+	)
+	(junction
+		(at 318.77 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "421fa9de-caa6-4b8a-bd9b-8110de0560a0")
 	)
 	(junction
 		(at 232.41 152.4)
@@ -3312,10 +3330,34 @@
 		(uuid "72073811-78c8-4a4d-8a4c-41cf736057b3")
 	)
 	(junction
+		(at 318.77 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79a98208-2033-4b2e-b212-20bb976526e1")
+	)
+	(junction
+		(at 328.93 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d1dc069-7f25-4325-91c1-3b11ce876375")
+	)
+	(junction
 		(at 339.09 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a614c1fc-9355-4b4c-b350-423756424559")
+	)
+	(junction
+		(at 313.69 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a718e4a1-33a4-47c6-898f-5324cc1aff17")
+	)
+	(junction
+		(at 308.61 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab0e759a-0991-4c4f-a90c-1360b04d822d")
 	)
 	(junction
 		(at 143.51 63.5)
@@ -3328,6 +3370,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aebafed4-1744-4b4a-889d-b780ef36d86a")
+	)
+	(junction
+		(at 323.85 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b545fc6d-6e66-4122-abd9-d3d85e13f774")
 	)
 	(junction
 		(at 158.75 189.23)
@@ -3391,6 +3439,26 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 137.16) (xy 323.85 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05caa4b7-dc7b-480f-888d-f684031a6bf3")
+	)
+	(wire
+		(pts
+			(xy 328.93 154.94) (xy 328.93 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f8d3e5-8e6e-4f39-afec-7ebc1ddf0447")
+	)
+	(wire
+		(pts
 			(xy 158.75 189.23) (xy 158.75 187.96)
 		)
 		(stroke
@@ -3421,6 +3489,26 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 127) (xy 345.44 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb067a0-2276-4de0-937c-5cd5dca6fb08")
+	)
+	(wire
+		(pts
+			(xy 313.69 156.21) (xy 308.61 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6da7e5-73d5-42fc-99de-2d5e0a2eca19")
+	)
+	(wire
+		(pts
 			(xy 355.6 88.9) (xy 355.6 90.17)
 		)
 		(stroke
@@ -3441,6 +3529,36 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 121.92) (xy 308.61 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f33b9f7-0efc-4306-80a6-4d00c9a96044")
+	)
+	(wire
+		(pts
+			(xy 323.85 154.94) (xy 323.85 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a6c1f7-a06a-4746-8773-0089fc73361c")
+	)
+	(wire
+		(pts
+			(xy 318.77 132.08) (xy 318.77 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15b8cb40-fa45-4e9d-a296-fa345480dfcf")
+	)
+	(wire
+		(pts
 			(xy 128.27 76.2) (xy 130.81 76.2)
 		)
 		(stroke
@@ -3448,16 +3566,6 @@
 			(type default)
 		)
 		(uuid "165a9ee7-17d6-4e4e-9738-1f263ee94bbc")
-	)
-	(wire
-		(pts
-			(xy 256.54 137.16) (xy 345.44 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "187757ee-ce61-4cde-9712-821cb67737f2")
 	)
 	(wire
 		(pts
@@ -3601,6 +3709,26 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 137.16) (xy 345.44 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41190580-7b91-43d7-9cc2-ac901b62a440")
+	)
+	(wire
+		(pts
+			(xy 256.54 127) (xy 313.69 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "449b4569-7920-49c7-a750-85ddc86dc7e2")
+	)
+	(wire
+		(pts
 			(xy 128.27 73.66) (xy 130.81 73.66)
 		)
 		(stroke
@@ -3608,6 +3736,16 @@
 			(type default)
 		)
 		(uuid "4809fb9c-9306-4b18-aebe-a22694680e36")
+	)
+	(wire
+		(pts
+			(xy 313.69 127) (xy 313.69 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489ec985-0c51-4725-bd62-bc783b84015e")
 	)
 	(wire
 		(pts
@@ -3631,7 +3769,17 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 132.08) (xy 345.44 132.08)
+			(xy 318.77 132.08) (xy 345.44 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5b8558-2242-441a-a779-f107b59d43a7")
+	)
+	(wire
+		(pts
+			(xy 256.54 132.08) (xy 318.77 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3661,7 +3809,17 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 142.24) (xy 345.44 142.24)
+			(xy 318.77 154.94) (xy 318.77 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c0cfd7-d480-4a10-8e9d-0bcae4857250")
+	)
+	(wire
+		(pts
+			(xy 256.54 142.24) (xy 328.93 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3678,6 +3836,16 @@
 			(type default)
 		)
 		(uuid "5341c518-9e8b-41ef-9f50-2daad8ef42d2")
+	)
+	(wire
+		(pts
+			(xy 313.69 154.94) (xy 313.69 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "536b2b4a-1980-4f95-98c5-2e5323910ea1")
 	)
 	(wire
 		(pts
@@ -3698,6 +3866,16 @@
 			(type default)
 		)
 		(uuid "5577f7e6-0d2a-447f-b76b-c44b6e773345")
+	)
+	(wire
+		(pts
+			(xy 328.93 156.21) (xy 323.85 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b4a11c4-0548-45ff-ae88-76db321324fc")
 	)
 	(wire
 		(pts
@@ -3901,6 +4079,26 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 154.94) (xy 308.61 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0ede56-7078-48ae-b39c-5b408a84a313")
+	)
+	(wire
+		(pts
+			(xy 328.93 142.24) (xy 328.93 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eead96a-4932-4324-9f46-d5e470aa5c86")
+	)
+	(wire
+		(pts
 			(xy 142.24 41.91) (xy 149.86 41.91)
 		)
 		(stroke
@@ -4011,6 +4209,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 156.21) (xy 318.77 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2766242-55e1-46f9-9074-5c610fdc6600")
+	)
+	(wire
+		(pts
 			(xy 158.75 189.23) (xy 158.75 190.5)
 		)
 		(stroke
@@ -4048,16 +4256,6 @@
 			(type default)
 		)
 		(uuid "af61aee2-36b0-499c-bd59-84db33234cc2")
-	)
-	(wire
-		(pts
-			(xy 345.44 127) (xy 256.54 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af872827-cee4-441d-abd5-2fc44a2d8352")
 	)
 	(wire
 		(pts
@@ -4111,6 +4309,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 156.21) (xy 318.77 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d269807b-59a6-4726-a949-3b2d2c0f27a3")
+	)
+	(wire
+		(pts
 			(xy 232.41 147.32) (xy 232.41 152.4)
 		)
 		(stroke
@@ -4151,7 +4359,17 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 121.92) (xy 345.44 121.92)
+			(xy 308.61 121.92) (xy 345.44 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5721f73-8afe-4486-bc44-adb4f3a82404")
+	)
+	(wire
+		(pts
+			(xy 256.54 121.92) (xy 308.61 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4168,6 +4386,36 @@
 			(type default)
 		)
 		(uuid "f2643c7a-ecf6-47fd-b217-c218b7679b12")
+	)
+	(wire
+		(pts
+			(xy 318.77 156.21) (xy 313.69 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3584ca8-e6d5-48bd-a0ef-0966b70190c5")
+	)
+	(wire
+		(pts
+			(xy 328.93 142.24) (xy 345.44 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f41548c1-5f8a-4a18-970a-5e75f388acb7")
+	)
+	(wire
+		(pts
+			(xy 323.85 137.16) (xy 323.85 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f50c6a1d-c733-4813-a052-9b3a8bba746b")
 	)
 	(wire
 		(pts
@@ -4838,6 +5086,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 318.77 151.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "415e6ddb-3073-4954-b17a-593a5385021e")
+		(property "Reference" "D11"
+			(at 319.024 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 321.056 155.194 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 318.77 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 318.77 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20615819"
+			(at 318.77 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ab7058cd-49db-487a-8ee0-0d480d6be077")
+		)
+		(pin "1"
+			(uuid "4d5f252b-2f1c-4023-8d95-cef2060ad562")
+		)
+		(instances
+			(project "beavs-6"
+				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 158.75 182.88 0)
 		(unit 1)
@@ -4988,6 +5329,84 @@
 			(project "beavs-6"
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 318.77 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "483398fc-3ceb-4829-9985-48fdee5c9ceb")
+		(property "Reference" "#PWR0102"
+			(at 318.77 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 318.77 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.77 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 318.77 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a74d9b4-281a-45e1-ba08-ef2cbbb73340")
+		)
+		(instances
+			(project "beavs-6"
+				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -6408,6 +6827,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 313.69 151.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a59e2614-3e49-41b4-a4e8-b57543043e2a")
+		(property "Reference" "D17"
+			(at 313.944 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 315.976 155.194 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 313.69 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 313.69 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 313.69 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20615819"
+			(at 313.69 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5c3b6063-28a0-47d7-a801-2d518235f0be")
+		)
+		(pin "1"
+			(uuid "58cdb8fa-34f3-464a-885c-6825ddd34a1a")
+		)
+		(instances
+			(project "beavs-6"
+				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 128.27 39.37 0)
 		(unit 1)
@@ -6480,6 +6992,99 @@
 			(project "beavs-6"
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1"
 					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 328.93 151.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c1445e37-317c-4668-a71f-9f945cd93b18")
+		(property "Reference" "D6"
+			(at 329.184 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 331.216 155.194 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 328.93 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 328.93 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20615819"
+			(at 328.93 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3314cb76-3ed2-46e2-9b5d-099df72809d0")
+		)
+		(pin "1"
+			(uuid "542080ac-35f1-4b40-9e59-bde529fd715f")
+		)
+		(instances
+			(project "beavs-6"
+				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -6956,6 +7561,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 308.61 151.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "daf680cd-7be8-42d5-9ff3-04a212518ad4")
+		(property "Reference" "D18"
+			(at 308.864 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 310.896 155.194 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 308.61 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 308.61 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20615819"
+			(at 308.61 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bb2d50b6-396b-4f03-a3f2-e32ae37f0242")
+		)
+		(pin "1"
+			(uuid "afdb18f1-e59b-429f-af6e-41f5e91fe535")
+		)
+		(instances
+			(project "beavs-6"
+				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 146.05 55.88 0)
 		(unit 1)
@@ -7218,6 +7916,99 @@
 			(project "beavs-6"
 				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 323.85 151.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e973ac69-73b3-421f-a091-5ff6bc57e104")
+		(property "Reference" "D10"
+			(at 324.104 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 326.136 155.194 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 323.85 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 323.85 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20615819"
+			(at 323.85 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c7cded4f-5130-48f6-9597-6cd313e46f41")
+		)
+		(pin "1"
+			(uuid "39216775-069b-41c1-a5ae-f17ec539e1a7")
+		)
+		(instances
+			(project "beavs-6"
+				(path "/49232f62-a438-4b3e-9be5-c2b3074d8de1"
+					(reference "D10")
 					(unit 1)
 				)
 			)

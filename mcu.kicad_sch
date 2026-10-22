@@ -7135,7 +7135,7 @@
 				)
 			)
 		)
-		(property "digikey" "SAM1156-01-ND"
+		(property "digikey" "952-3598-ND"
 			(at 100.33 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -8089,6 +8089,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 92.71 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5885449"
 			(at 92.71 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9309,6 +9320,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 256.54 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey" "455-1706-ND"
 			(at 256.54 80.01 0)
 			(hide yes)
 			(show_name no)

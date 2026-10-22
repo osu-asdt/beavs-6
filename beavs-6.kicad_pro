@@ -120,9 +120,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -492,6 +492,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -726,7 +727,7 @@
         "uuid": "49232f62-a438-4b3e-9be5-c2b3074d8de1"
       }
     ],
-    "used_designators": "NT5-6,C22,C32-35,D10-11,R2,R8-9,R11,R15-18,JP1,Q1-2,U4-5,#PWR1-3,#PWR7-9,#PWR15,#PWR23,#PWR45-49,#PWR98,#PWR103,#PWR120,#PWR122,J2,J4,J11",
+    "used_designators": "#PWR1-3,#PWR7-9,#PWR15,#PWR23,#PWR45-49,#PWR98,#PWR102-103,#PWR120,#PWR122,C22,C32-35,D6,D10-11,D17-18,J2,J4,J11,JP1,NT5-6,Q1-2,R2,R8-9,R11,R15-18,U4-5",
     "variants": []
   },
   "sheets": [

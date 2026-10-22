@@ -4782,7 +4782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 167.64 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4815,7 +4815,7 @@
 				)
 			)
 		)
-		(property "digikey" "1727-5361-1-ND"
+		(property "digikey" ""
 			(at 167.64 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -4827,6 +4827,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 167.64 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20615819"
 			(at 167.64 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -5002,7 +5013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 87.63 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5035,7 +5046,7 @@
 				)
 			)
 		)
-		(property "digikey" "1727-5361-1-ND"
+		(property "digikey" ""
 			(at 87.63 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -5047,6 +5058,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 87.63 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20615819"
 			(at 87.63 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -5366,7 +5388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 87.63 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5399,7 +5421,7 @@
 				)
 			)
 		)
-		(property "digikey" "1727-5361-1-ND"
+		(property "digikey" ""
 			(at 87.63 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -5411,6 +5433,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 87.63 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20615819"
 			(at 87.63 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -10062,7 +10095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 246.38 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10095,7 +10128,7 @@
 				)
 			)
 		)
-		(property "digikey" "1727-5361-1-ND"
+		(property "digikey" ""
 			(at 246.38 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -10107,6 +10140,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 246.38 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20615819"
 			(at 246.38 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -10746,7 +10790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 166.37 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10779,7 +10823,7 @@
 				)
 			)
 		)
-		(property "digikey" "1727-5361-1-ND"
+		(property "digikey" ""
 			(at 166.37 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -10791,6 +10835,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 166.37 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20615819"
 			(at 166.37 64.77 90)
 			(hide yes)
 			(show_name no)

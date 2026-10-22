@@ -3858,6 +3858,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1523"
+			(at 222.25 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60ce3caa-c22b-4d66-93ed-14952cb0f829")
 		)
@@ -4454,6 +4465,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C20607218"
+			(at 205.74 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "77d7595f-0214-4afa-86f7-24b34ed84e17")
 		)
@@ -4826,6 +4848,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 185.42 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25120"
+			(at 185.42 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6302,7 +6335,7 @@
 				)
 			)
 		)
-		(property "Value" "Q_NMOS_SSSGD_AvalancheRated"
+		(property "Value" "SIS402DN-T1-GE3"
 			(at 72.39 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6346,6 +6379,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 72.39 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15791"
 			(at 72.39 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -6552,6 +6596,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 176.53 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25105"
+			(at 176.53 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7071,6 +7126,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 72.39 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2653623"
 			(at 72.39 81.28 0)
 			(hide yes)
 			(show_name no)
